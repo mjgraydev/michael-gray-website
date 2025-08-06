@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    opacity: 0;
+    background-color: #000;
+    animation: fadeInBody 1.5s ease-in-out forwards;
+
+}
+
+@keyframes fadeInBody {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+header {
+    display:flex;
+    justify-content: center; 
+    margin: 15px;
+}
+
+header img {
+    height: 125px;
+}
+
+#hero-section {
+    color: #000;
+    text-align: center;
+    margin: 50px;
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    font-family: Roboto;
+}
+
+#hero-section h1, h2 {
+    font-family: Josefin Sans;
+}
+
+.button{
+
+    height: 20px;
+    width: 30px;
+    background-color: #0598ce;
+    color: #fff;
+    font-family: Josefin Sans;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.button:hover {
+
+    background-color: #fff;
+    border: #0598ce 2px solid;
+    color: #0598ce;
+}
+
+#about-title {
+    color: #fff;
+    padding: 0px 50px;
+}
+
+
+#about-section {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    color: #fff;
+    margin: 50px;
+}
+
+
+#about-title h1 {
+    font-family: Josefin Sans;
+    font-size: 65px;
+}
+
+#about-title h2 {
+    font-family: Josefin Sans;
+    font-size: 35px;
+}
+
+#about-section p {
+    font-family: Roboto;
+    line-height: 25px;
+}
+
+#about-text-container {
+
+    display: block;
+    align-items: center;
+}
+
+.about-icons {
+
+    height: 30px;
+    width: 30px;
+}
+
+#about-img-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+#about-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    filter: brightness(1.5);
+    object-fit: cover;
+    object-position: top ;
+
+
+}
+
+#bcv-section {
+
+    padding: 0px 50px;
+}
+
+#bcv-section h2{
+    font-family: Josefin Sans;
+    color: #fff;
+    margin-bottom: 25px;
+
+}
+
+#bcv-brands {
+    display: flex ;
+    gap: 25px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.bcv-brands-icons {
+    width: 100px;
+    margin: 15px 0px;
+}
+
+.brand-margin {
+    margin: 15px 0px;
+}
+
+footer {
+    margin-top: 55px;
+    text-align: center;
+    color: #fff;
+    font-family: Josefin Sans;
+
+}
+
+footer img {
+    height: 30px;
+    justify-content: center;
+    
+}

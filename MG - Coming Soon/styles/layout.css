@@ -1,0 +1,48 @@
+@media screen and (max-width: 430px){
+    #about-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #about-img {
+        width: 200px;
+        border-radius: 500px;
+    }
+
+    #bcv-brands {
+        display: block;
+        text-align: center;
+    }
+}
+
+    @media screen and (min-width: 431px) and (max-width: 767px) {
+
+        #about-section {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #about-section > div:first-child {
+    order: 2;
+    }
+
+    #about-section > div:last-child {
+    order: 1;
+    }
+
+      #about-image {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        object-fit: cover;
+        object-position: top ;
+    }
+
+    #bcv-brands {
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
