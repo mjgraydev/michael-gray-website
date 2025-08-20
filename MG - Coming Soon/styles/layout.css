@@ -13,6 +13,29 @@
         display: block;
         text-align: center;
     }
+
+    #hero-section {
+        justify-content: center;
+
+    }
+
+     #details-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #your-host {
+        display:grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        padding: 0px 15px;
+    }
+
+    #overlay-width {
+        
+        width: 300px;
+        
+    }
 }
 
     @media screen and (min-width: 431px) and (max-width: 767px) {
@@ -41,6 +64,24 @@
     #bcv-brands {
         display: block;
         text-align: center;
+    }
+
+    #details-section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #your-host {
+        display:grid;
+        grid-template-columns: 1fr;
+        align-content: center;
+        padding: 0px 15px;
+    }
+
+    #overlay-width {
+        
+        width: 300px;
+        
     }
 }
 
