@@ -1,0 +1,285 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: #0A2540;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-content: center;
+    
+}
+
+.filled-btn{
+
+    width: 200px;
+    height: 35px;
+    background-color: #fff;
+    color: #0A2540;
+    font-family: "Roboto";
+    font-size: 16px;
+    border:#0A2540 solid 1px ;
+    
+
+}
+
+.filled-btn:hover {
+    background-color: orange;
+}
+
+header img{
+    height: 35px;
+}
+
+#section-one {
+
+    margin-left: auto;
+    margin-right: auto;
+   /* height: 75vh;*/
+
+}
+
+#ble-img {
+
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;transform: scale(1.3);
+    transform-origin: center; 
+
+}
+
+#stripe-shoutout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#stripe-logo {
+
+    height: 25px;
+    margin-left: 10px;
+    
+}
+
+#section-one p, h2 {
+
+    color: #fff;
+    font-family: "Roboto";
+    text-align: center;
+}
+
+#section-two {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.section-two-item {
+
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+
+}
+
+.section-two-item img{
+    width: 25px;
+}
+
+#section-three {
+
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15;
+    color:#333333;
+}
+
+.section-three-item {
+
+    padding: 15px;
+}
+
+.section-three-item h2{
+
+    color: #333333;
+    font-family: Roboto;
+    margin-right: 15px;
+}
+
+.section-three-item p, ul{
+
+    color: #333333;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.section-three-item li{
+
+    margin-bottom: 15px;
+}
+
+#section-four {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-four-item {
+    padding-left: 15px;
+}
+
+
+.section-four-item h2 {
+
+    color: #333333;
+    font-family: Roboto;
+    line-height: 25px;
+    width: 300px;
+    margin-block-start: 0;
+
+}
+
+.photo-resize {
+    height: 300px;
+    border-radius: 600px;
+    display: grid;
+    justify-self: center;
+
+}
+
+.icon-resize {
+
+    width: 30px;
+
+}
+
+#section-five {
+  position: relative;
+  background: url('../assets/sean-michael-stripe_VSCO.JPG') center/cover no-repeat;
+  height: 60vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#section-five .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Roboto;
+
+}
+
+#overlay-width {
+    width:500px;
+}
+
+footer {
+    margin-top: 55px;
+    text-align: center;
+    color: #fff;
+    font-family: Josefin Sans;
+
+}
+
+footer img {
+    height: 30px;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 430px){
+
+    #section-three{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #section-four{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .filled-btn {
+        width: 150px;
+    }
+
+    #section-two {
+        padding: 25px;
+    }
+
+    #section-five {
+
+        background: url('../assets/sean-michael-stripe_VSCO.JPG')left center/cover no-repeat;
+        height: 400px;
+    }
+
+    #ble-img {
+        width: 70%;
+    }
+
+     #overlay-width {
+    width:300px;
+    
+
+}
+}
+
+@media screen and (min-width: 431px) and (max-width: 767px) { 
+
+    #section-three{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #section-four{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .filled-btn {
+        width: 150px;
+    }
+
+    #section-two {
+        padding: 25px;
+    }
+
+    #section-five {
+
+        background: url('../assets/sean-michael-stripe_VSCO.JPG')left center/cover no-repeat;
+    }
+
+    #ble-img {
+        width: 70%;
+    }
+
+    #overlay-width {
+    width:200px;
+}
+}

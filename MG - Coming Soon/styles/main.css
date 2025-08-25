@@ -165,3 +165,29 @@ footer img {
     justify-content: center;
     
 }
+
+main {
+    color: #fff;
+    text-align: center;
+    margin-top: 25px;
+}
+
+main h1,p {
+    font-family: Josefin Sans;
+    margin-bottom: 22px;
+}
+
+main h2 {
+    margin-top: 85px;
+}
+
+#join-btn {
+    height: 35px;
+    width: 250px;
+    color: #000;
+    background-color: #fff;
+    font-family: Josefin Sans;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+}
